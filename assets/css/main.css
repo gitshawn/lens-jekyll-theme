@@ -991,7 +991,6 @@
 		width: calc(100% - 22.5em);
 		height: 100%;
 		left: 0;
-		border: 30px solid white;
 	}
 
 		#viewer .inner {
