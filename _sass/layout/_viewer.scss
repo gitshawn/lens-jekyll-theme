@@ -26,7 +26,8 @@
 		top: 0;
 		width: calc(100% - #{_size(main)});
 		height: 100%;
-
+		border: 10px solid white;
+		
 		@if _misc(main-side) == 'left' {
 			right: 0;
 		}
@@ -145,7 +146,7 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				opacity: 0;
-				border: 10px solid white;
+
 
 			}
 
