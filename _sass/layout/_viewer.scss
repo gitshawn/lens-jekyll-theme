@@ -2,12 +2,6 @@
 @import '../libs/functions';
 @import '../libs/mixins';
 
-///
-/// Lens by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
-
 /* Viewer */
 
 	@include keyframes(spinner) {
@@ -26,8 +20,7 @@
 		top: 10;
 		width: calc(100% - #{_size(main)});
 		height: 100%;
-		border: 10px solid white;
-		
+				
 		@if _misc(main-side) == 'left' {
 			right: 10;
 		}
@@ -146,6 +139,7 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				opacity: 0;
+				border: 10px solid white;
 
 
 			}
