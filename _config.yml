@@ -1,6 +1,6 @@
 # Site settings
 title: Space From Within
-description: South Florida Area Interior Decoration Services
+description: South Florida Interior Decoration
 baseurl: "/lens-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
@@ -14,12 +14,12 @@ collections:
 facebook_url:
 github_url:
 gitlab_url:
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+googleplus_url:
+instagram_url: https://www.instagram.com/tatcperez/
+linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url:
 
 # Build settings
 markdown: kramdown
