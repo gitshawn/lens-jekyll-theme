@@ -23,16 +23,16 @@
 	#viewer {
 		@include vendor('transition', ('opacity #{_duration(layout)} ease', 'width #{_duration(layout)} ease'));
 		position: absolute;
-		top: 0;
+		top: 10;
 		width: calc(100% - #{_size(main)});
 		height: 100%;
 		border: 10px solid white;
 		
 		@if _misc(main-side) == 'left' {
-			right: 0;
+			right: 10;
 		}
 		@else {
-			left: 0;
+			left: 10;
 		}
 
 		.inner {
